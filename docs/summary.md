@@ -8,6 +8,13 @@ A functional genomics predictive network model identifies regulators of inflamma
 
 ## Approaches to reproduce paper
 
+## Issues with specific analysis
+### eQTLS
+Jian will add a summary
+
+## Network_enrichment
+Jian will add a summary
+
 
 ## Obstacles
 
