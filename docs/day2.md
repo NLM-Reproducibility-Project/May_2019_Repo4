@@ -16,3 +16,4 @@
  - based on knowledge of domain (wasn't clear in paper), one us had
    expertiese to work in the domain
 
+* got github access working
