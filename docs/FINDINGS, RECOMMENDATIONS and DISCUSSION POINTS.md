@@ -10,7 +10,7 @@ The following describes selected findings that team_ibd_a identified while attem
 ### **Key findings of the analysis:**
 
 *availability and accessibility of data:*   
->Key data were not available (empty folder, corrupted R.data file), accessibility was not straightforward (Synapse;syn10163117), recursive download failed; details on 205 position-specific weight matrices (PWMs) from JASPAR CORE database were not provided.
+>Key data were not available (empty folder, corrupted R.data file), accessibility was not straightforward (Synapse; syn10163117), recursive download failed; details on 205 position-specific weight matrices (PWMs) from JASPAR CORE database were not provided.
 
 *data and code integrity:*  
 >We encountered a corrupted R.data file in Synapse (16.6Gb) at the entry point of the data analysis. R code files often point to data that are not present in the Synapse repository.
