@@ -11,7 +11,7 @@ A functional genomics predictive network model identifies regulators of inflamma
 ## Issues with specific analysis
 
 ### eQTL
-Authors performed eQTL analysis to identify all genes using the known/published IBD eQTLs. The genes identified by this analysis will be used to generate the IBD genes as SEEDs to downstream analyses. In the Synapse, the codes used to this analysis are included in 'synapse_data/Code/eQTL/code' <br>
+Authors performed eQTL analysis to identify all genes using the known/published IBD eQTLs. The genes identified by this analysis will be used to generate the IBD genes as SEEDs to downstream analyses. In the Synapse, the codes used for this analysis are included in 'synapse_data/Code/eQTL/code' <br>
 
 <pre>
 step.1.1.pickup.sub.eqtl-lm-peaks.pl
@@ -20,7 +20,7 @@ step.3.fdr.pl
 step.4.cut.peak.pl
 </pre>
 
-Four perl scripts were included for the four-step analysis. But the problem is that the codes have hard-coded I/O directories on authors personal computers using file names that could not be found in your Synapse repository. Below are examples:
+Four perl scripts were included for the four-step analysis. But the problem is that the codes have hard-coded I/O directories on authors personal computers using file names that could not be found in the Synapse repository. Below are examples:
  
 <pre>
 $PROG="/hpc/users/dinara01/packages/eqtl.tools-0.0.28/eqtl-lm-peaks";
@@ -37,7 +37,7 @@ codeforenrichmenttable.R
 co-expression_network/
 </pre>
 
-But the codes contain hard-coded input and output files to their personal computers. The input files used were not found in their Synapse repositry.
+But the codes contain hard-coded input and output files on their personal computers. The input files used were not found in the Synapse repositry.
 
 <pre>
 # codeforenrichmenttable.R 
