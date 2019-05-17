@@ -8,6 +8,59 @@ A functional genomics predictive network model identifies regulators of inflamma
 
 ## Approaches to reproduce paper
 
+## Issues with specific analysis
+
+### eQTL
+Authors performed eQTL analysis to identify all genes using the known/published IBD eQTLs. The genes identified by this analysis will be used to generate the IBD genes as SEEDs to downstream analyses. In the Synapse, the codes used to this analysis are included in 'synapse_data/Code/eQTL/code' <br>
+
+<pre>
+step.1.1.pickup.sub.eqtl-lm-peaks.pl
+step.2.merge.peaks.pl
+step.3.fdr.pl
+step.4.cut.peak.pl
+</pre>
+
+Four perl scripts were included for the four-step analysis. But the problem is that the codes have hard-coded I/O directories on authors personal computers using file names that could not be found in your Synapse repository. Below are examples:
+ 
+<pre>
+$PROG="/hpc/users/dinara01/packages/eqtl.tools-0.0.28/eqtl-lm-peaks";
+        $genespos="/projects/haok01a/haok/work/Projects_2013/Cancer.Genome/tools/RNAseq/Ucsc.annotation.hg19.eQTL.txt" if ($ARGV[0]=~/UCSC/i);
+        $genespos="/projects/haok01a/haok/work/Projects_2013/Cancer.Genome/tools/RNAseq/Ensemble.annotation.hg19.eQTL.txt" if ($ARGV[0]=~/ENSEMBLE/i);
+</pre>
+
+### Network_enrichment
+Authors performed their network enrichment using the SEED IBD genes identified by GWAS and eQTL analyses on the co-expression network from three different coherts with varying severity of disease. Authors have the codes for the network enrichment (see below):
+
+<pre>
+#synapse_data/Code/Network_enrichment/co-expression_network
+codeforenrichmenttable.R
+co-expression_network/
+</pre>
+
+But the codes contain hard-coded input and output files to their personal computers. The input files used were not found in their Synapse repositry.
+
+<pre>
+# codeforenrichmenttable.R 
+x = read.table("/Users/user/Documents/Renrichment.csv",sep=",",header=T)
+....
+write.table(x, "/Users/user/Documents/Renrichmentresults.csv",sep=",",quote=F)
+</pre>
+
+The authors also included codes to generate the co-expression networks. But again the input data are nowhere to be found.
+
+<pre>
+# synapse_data/Code/Network_enrichment/co-expression_network/
+Curate_Signature.R
+DEG.curated.RData
+R_functions.R
+RUN_KDA.R
+
+## Curate_Signature.R
+###### script to extract signatures
+rm(list = ls())
+
+wkdir <- "G:/IBD_KDA/Updated_Lauren_DEG_Signatures";setwd(wkdir)
+</pre>
 
 ## Obstacles
 
