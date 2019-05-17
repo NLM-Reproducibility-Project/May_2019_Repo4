@@ -52,6 +52,8 @@ The following describes selected findings that team_ibd_a identified while attem
 
 *reproducibility and peer-review:*
 >What are the responsibilities of the reviewers in the peer-review process in terms of commenting on availability of detailed methods and supplemental materials in light of data reproducibility?
+
 Should data only be reproducible to the experts in the respective field or should they be ‘accessible’ to anybody interested in any given topic?
+
 How to deal with analyses where closed-source packages are used?
 
