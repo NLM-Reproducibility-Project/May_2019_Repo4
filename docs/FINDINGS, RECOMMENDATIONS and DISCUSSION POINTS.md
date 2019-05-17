@@ -4,6 +4,7 @@ May 17, 2019 at 9:35 AM
 # **Findings, Recommendations and Discussion Points**
 
 Team: Dakota, Diana, Jian, Jurgen, Mark
+Main accomplishment: we are better data archeologists now than three days ago
 
 ## **Summary:**
 
