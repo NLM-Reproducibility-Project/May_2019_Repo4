@@ -7,6 +7,9 @@ Team: Dakota, Diana, Jian, Jurgen, Mark
 
 Main accomplishment: we are better data archaeologists now than three days ago
 
+### **Approach**
+We collated any reference to primary data, software, and code from the main body of the article and from the 39 pages of Supplementary Information and used Fig. 1, which provides a graphical overview on the data analysis, as a visual guide. We visited all discovered resource points (Synapse etc.) and explored accessibility and content. We annotated the master spreadsheet that contains all supplementary tables so to include an index to the master workbook, an overview to the experiments described in the article, data and software sources, and an inventory of the Synapse repository. We then tried to reproduce the analysis and we report here on our findings.
+
 ## **Summary:**
 
 The following describes selected findings that team_ibd_a identified while attempting to reproduce the data analysis documented in the Nature article on “A functional genomics predictive network model identifies regulators of inflammatory bowel disease” by Peters et al. (https://www.nature.com/articles/ng.3947#results). Further, the team presents ideas on better practices and offers questions for general discussion. 
