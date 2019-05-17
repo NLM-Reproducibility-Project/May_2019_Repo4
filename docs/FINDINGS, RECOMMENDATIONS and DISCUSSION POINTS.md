@@ -3,7 +3,7 @@ May 17, 2019 at 9:35 AM
 
 # **Findings, Recommendations and Discussion Points**
 
-Team: Dakota, Diana, Jian, Jurgen, Mark
+Team: Dakota Jacobs, Diana Nguyen, Jian Song, Jurgen Heymann, Mark Benson
 
 Main accomplishment: we are better data archaeologists now than three days ago
 
