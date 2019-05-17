@@ -10,19 +10,19 @@ The following describes selected findings that team_ibd_a identified while attem
 ### **Key findings of the analysis:**
 
 *availability and accessibility of data:*   
-Key data were not available (empty folder, corrupted R.data file), accessibility was not straightforward (Synapse), recursive download failed; details on 205 position-specific weight matrices (PWMs) from JASPAR CORE database were not provided.
+>Key data were not available (empty folder, corrupted R.data file), accessibility was not straightforward (Synapse), recursive download failed; details on 205 position-specific weight matrices (PWMs) from JASPAR CORE database were not provided.
 
 *data and code integrity:*  
-We encountered a corrupted R.data file in Synapse (16.6Gb) at the entry point of the data analysis. R code files often point to data that are not present in the Synapse repository
+>We encountered a corrupted R.data file in Synapse (16.6Gb) at the entry point of the data analysis. R code files often point to data that are not present in the Synapse repository
 
 *long-term accessibility of data and software packages:*  
-RIMBANET software was not usable due to issues with compiling; some software requires more detailed compilation/installation information than others
+>RIMBANET software was not usable due to issues with compiling; some software requires more detailed compilation/installation information than others
 
 *finding data and code:*  
-The article has a graphical representation of the overall workflow (Fig. 1) that referenced supplemental tables at discrete processing steps; but that did not allow to identify which data (location in Synapse, else) were processed in what way (which R code) to arrive at these steps; to reproduce the results presented in this article, a detailed processing protocol has to be provided that ties in all primary data and processed data together with the processing tools that were used to advance through the data analysis into a coherent processing pipeline; although links to data files (GO) and software resources were provided, other important information was buried in the supplemental (39 pages). Supplemental tables were organized into one Master spreadsheet. But that lacked a table index making it hard to navigate.
+>The article has a graphical representation of the overall workflow (Fig. 1) that referenced supplemental tables at discrete processing steps; but that did not allow to identify which data (location in Synapse, else) were processed in what way (which R code) to arrive at these steps; to reproduce the results presented in this article, a detailed processing protocol has to be provided that ties in all primary data and processed data together with the processing tools that were used to advance through the data analysis into a coherent processing pipeline; although links to data files (GO) and software resources were provided, other important information was buried in the supplemental (39 pages). Supplemental tables were organized into one Master spreadsheet. But that lacked a table index making it hard to navigate.
 
 ### **Conclusions:**
-The material and methods provided concerning the data analysis presented in the article were not conducive to reproducing the published findings. Major shortcomings were the poor organization of many of the components of the analysis, poor quality of coding practice, use of software that was poorly supported, and lack of analysis details necessary to reproduce the data processing.
+>The material and methods provided concerning the data analysis presented in the article were not conducive to reproducing the published findings. Major shortcomings were the poor organization of many of the components of the analysis, poor quality of coding practice, use of software that was poorly supported, and lack of analysis details necessary to reproduce the data processing.
 
 
 ### **Strategies to favor reproducibility by implementing the following concepts:**
