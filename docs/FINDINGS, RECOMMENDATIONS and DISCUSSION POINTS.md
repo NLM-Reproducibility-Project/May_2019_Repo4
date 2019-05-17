@@ -45,7 +45,7 @@ The following describes selected findings that team_ibd_a identified while attem
 
 >Use container-based approach or Snakemake approach to improve portability and reproducibility of processing pipeline; try to integrate as many processing steps as possible into a container that can be used to ‘reproduce/replicate’ pipeline with the goal to arrive at a containerized final processing pipeline; alternatively, use Snakemake to provide portable pipeline(s). Both approaches are likely tricky to implement but even the attempt to generating them will improve reproducibility inherently.
 
-**General questions for discussion:**
+### **General questions for discussion:**
 
 *quality control of data/code going into repository:*
 >Was the relevant R.data file (16Gb) already corrupted at time of upload into Synapse or did the upload cause the corruption? Can data get corrupted in repositories? Are there mechanisms at repository sites that check for data integrity? Are repositories build to include redundancies? What are the responsibilities of the researcher(s)?
