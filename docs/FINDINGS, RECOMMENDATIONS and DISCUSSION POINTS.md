@@ -29,14 +29,17 @@ The following describes selected findings that team_ibd_a identified while attem
 
 **curated code:**  
 *goal: code that runs everywhere*
+
 Provide code that is robustly tested on more than one computer/OS; limited hard-coding of arguments/parameters; well documented as notebook/Markdown in terms of dependencies others
 
 **processing pipeline:** 
 *goal: structured, annotated ‘inventory’ of data - map showing how code and data are connected*
+
 Provide detailed outline and explanation of processing pipeline revealing all processing steps with I/O documentation (Snakemake); detailed documentation (spreadsheet, graphically) of data and code organization in repositories; master spreadsheet of all resources required for project possibly listing alternative processing paths if proprietary software or no-longer supported software has been utilized; use notebooks/Markdown for any code
 
 **portability:** 
 *goal: make processing pipeline platform independent and universally functional*
+
 Use container-based approach or Snakemake approach to improve portability and reproducibility of processing pipeline; try to integrate as many processing steps as possible into a container that can be used to ‘reproduce/replicate’ pipeline with the goal to arrive at a containerized final processing pipeline; alternatively, use Snakemake to provide portable pipeline(s). Both approaches are likely tricky to implement but even the attempt to generating them will improve reproducibility inherently.
 
 **General questions for discussion:**
