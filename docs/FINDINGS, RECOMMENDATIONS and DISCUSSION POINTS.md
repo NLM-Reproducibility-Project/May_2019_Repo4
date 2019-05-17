@@ -8,7 +8,10 @@ Team: Dakota, Diana, Jian, Jurgen, Mark
 Main accomplishment: we are better data archaeologists now than three days ago
 
 ### **Approach**
-1. We collated any reference to primary data, software, and code from the main body of the article and from the 39 pages of Supplementary Information and used Fig. 1, which provides a graphical overview on the data analysis, as a visual guide. 2. We visited all discovered resource points (Synapse etc.) and explored accessibility and content. 3. We annotated the master spreadsheet that contains all supplementary tables so to include an index to the master workbook, an overview to the experiments described in the article, data and software sources, and an inventory of the Synapse repository. 4. We then tried to reproduce the analysis and we report here on our findings.
+1. We collated any reference to primary data, software, and code from the main body of the article and from the 39 pages of Supplementary Information and used Fig. 1, which provides a graphical overview on the data analysis, as a visual guide.
+2. We visited all discovered resource points (Synapse etc.) and explored accessibility and content.
+3. We annotated the master spreadsheet that contains all supplementary tables so to include an index to the master workbook, an overview to the experiments described in the article, data and software sources, and an inventory of the Synapse repository.
+4. We then tried to reproduce the analysis and we report here on our findings.
 
 ## **Summary:**
 
