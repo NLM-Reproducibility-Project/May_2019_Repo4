@@ -1,7 +1,7 @@
 
 May 17, 2019 at 9:35 AM
 
-# **FINDINGS, RECOMMENDATIONS and DISCUSSION POINTS**
+# **Findings, Recommendations and Discussion Points**
 
 ## **Summary:**
 
