@@ -13,10 +13,10 @@ The following describes selected findings that team_ibd_a identified while attem
 >Key data were not available (empty folder, corrupted R.data file), accessibility was not straightforward (Synapse), recursive download failed; details on 205 position-specific weight matrices (PWMs) from JASPAR CORE database were not provided.
 
 *data and code integrity:*  
->We encountered a corrupted R.data file in Synapse (16.6Gb) at the entry point of the data analysis. R code files often point to data that are not present in the Synapse repository
+>We encountered a corrupted R.data file in Synapse (16.6Gb) at the entry point of the data analysis. R code files often point to data that are not present in the Synapse repository.
 
 *long-term accessibility of data and software packages:*  
->RIMBANET software was not usable due to issues with compiling; some software requires more detailed compilation/installation information than others
+>RIMBANET software was not usable due to issues with compiling; some software requires more detailed compilation/installation information than others.
 
 *finding data and code:*  
 >The article has a graphical representation of the overall workflow (Fig. 1) that referenced supplemental tables at discrete processing steps; but that did not allow to identify which data (location in Synapse, else) were processed in what way (which R code) to arrive at these steps; to reproduce the results presented in this article, a detailed processing protocol has to be provided that ties in all primary data and processed data together with the processing tools that were used to advance through the data analysis into a coherent processing pipeline; although links to data files (GO) and software resources were provided, other important information was buried in the supplemental (39 pages). Supplemental tables were organized into one Master spreadsheet. But that lacked a table index making it hard to navigate.
@@ -31,13 +31,13 @@ The following describes selected findings that team_ibd_a identified while attem
 
 *goal: code that runs everywhere*
 
->Provide code that is robustly tested on more than one computer/OS; limited hard-coding of arguments/parameters; well documented as notebook/Markdown in terms of dependencies others
+>Provide code that is robustly tested on more than one computer/OS; limited hard-coding of arguments/parameters; well documented as notebook/Markdown in terms of dependencies others.
 
 **processing pipeline:**
 
 *goal: structured, annotated ‘inventory’ of data - map showing how code and data are connected*
 
->Provide detailed outline and explanation of processing pipeline revealing all processing steps with I/O documentation (Snakemake); detailed documentation (spreadsheet, graphically) of data and code organization in repositories; master spreadsheet of all resources required for project possibly listing alternative processing paths if proprietary software or no-longer supported software has been utilized; use notebooks/Markdown for any code
+>Provide detailed outline and explanation of processing pipeline revealing all processing steps with I/O documentation (Snakemake); detailed documentation (spreadsheet, graphically) of data and code organization in repositories; master spreadsheet of all resources required for project possibly listing alternative processing paths if proprietary software or no-longer supported software has been utilized; use notebooks/Markdown for any code.
 
 **portability:**
 
