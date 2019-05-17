@@ -28,7 +28,7 @@ The following describes selected findings that team_ibd_a identified while attem
 ### **Strategies to favor reproducibility by implementing the following concepts:**
 
 **curated code:**
-*goal: code that runs everywhere*
+  *goal: code that runs everywhere*
 
 >Provide code that is robustly tested on more than one computer/OS; limited hard-coding of arguments/parameters; well documented as notebook/Markdown in terms of dependencies others
 
