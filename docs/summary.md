@@ -28,7 +28,7 @@ $PROG="/hpc/users/dinara01/packages/eqtl.tools-0.0.28/eqtl-lm-peaks";
         $genespos="/projects/haok01a/haok/work/Projects_2013/Cancer.Genome/tools/RNAseq/Ensemble.annotation.hg19.eQTL.txt" if ($ARGV[0]=~/ENSEMBLE/i);
 </pre>
 
-## Network_enrichment
+### Network_enrichment
 Authors performed their network enrichment using the SEED IBD genes identified by GWAS and eQTL analyses on the co-expression network from three different coherts with varying severity of disease. Authors have the codes for the network enrichment (see below):
 
 <pre>
