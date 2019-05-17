@@ -9,7 +9,7 @@ The following describes selected findings that team_ibd_a identified while attem
 
 ### **Key findings of the analysis:**
 
-#### *availability and accessibility of data:*
+#### *availability and accessibility of data:*####
 **key data were not available (empty folder, corrupted R.data file), accessibility was not straightforward (Synapse), recursive download failed; details on 205 position-specific weight matrices (PWMs) from JASPAR CORE database were not provided.**
 
 #### *data and code integrity:*
