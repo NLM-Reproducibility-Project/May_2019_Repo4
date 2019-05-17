@@ -1,9 +1,9 @@
 
 May 17, 2019 at 9:35 AM
 
-#**FINDINGS, RECOMMENDATIONS and DISCUSSION POINTS**
+# **FINDINGS, RECOMMENDATIONS and DISCUSSION POINTS**
 
-**Summary:**
+## **Summary:**
 
 The following describes selected findings that team_ibd_a identified while attempting to reproduce the data analysis documented in the Nature article on “A functional genomics predictive network model identifies regulators of inflammatory bowel disease” by Peters et al. (https://www.nature.com/articles/ng.3947#results). The team presents ideas on better practices should have 
 
