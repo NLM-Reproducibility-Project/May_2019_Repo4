@@ -39,8 +39,8 @@ co-expression_network/
 
 But the codes contain hard-coded input and output files to their personal computers. The input files used were not found in their Synapse repositry.
 
-# codeforenrichmenttable.R 
 <pre>
+# codeforenrichmenttable.R 
 x = read.table("/Users/user/Documents/Renrichment.csv",sep=",",header=T)
 ....
 write.table(x, "/Users/user/Documents/Renrichmentresults.csv",sep=",",quote=F)
