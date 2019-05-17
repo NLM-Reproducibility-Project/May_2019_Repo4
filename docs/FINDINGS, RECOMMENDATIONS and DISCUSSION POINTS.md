@@ -7,7 +7,7 @@ Team: Dakota, Diana, Jian, Jurgen, Mark
 
 ## **Summary:**
 
-The following describes selected findings that team_ibd_a identified while attempting to reproduce the data analysis documented in the Nature article on “A functional genomics predictive network model identifies regulators of inflammatory bowel disease” by Peters et al. (https://www.nature.com/articles/ng.3947#results). The team presents ideas on better practices and offers questions for general discussion. 
+The following describes selected findings that team_ibd_a identified while attempting to reproduce the data analysis documented in the Nature article on “A functional genomics predictive network model identifies regulators of inflammatory bowel disease” by Peters et al. (https://www.nature.com/articles/ng.3947#results). Further, the team presents ideas on better practices and offers questions for general discussion. 
 
 ### **Key findings of the analysis:**
 
