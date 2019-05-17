@@ -5,7 +5,7 @@ May 17, 2019 at 9:35 AM
 
 Team: Dakota, Diana, Jian, Jurgen, Mark
 
-Main accomplishment: we are better data archeologists now than three days ago
+Main accomplishment: we are better data archaeologists now than three days ago :)
 
 ## **Summary:**
 
