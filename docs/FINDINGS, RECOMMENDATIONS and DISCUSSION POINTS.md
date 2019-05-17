@@ -7,7 +7,7 @@ May 17, 2019 at 9:35 AM
 
 The following describes selected findings that team_ibd_a identified while attempting to reproduce the data analysis documented in the Nature article on “A functional genomics predictive network model identifies regulators of inflammatory bowel disease” by Peters et al. (https://www.nature.com/articles/ng.3947#results). The team presents ideas on better practices should have 
 
-**Key findings of the analysis:**
+### **Key findings of the analysis:**
 
 *availability and accessibility of data:*
 **key data were not available (empty folder, corrupted R.data file), accessibility was not straightforward (Synapse), recursive download failed; details on 205 position-specific weight matrices (PWMs) from JASPAR CORE database were not provided.**
@@ -21,11 +21,11 @@ The following describes selected findings that team_ibd_a identified while attem
 *finding data and code:*
 **there was a graphical representation of the overall workflow (Fig. 1) that referenced supplemental tables at discrete processing steps; but that did not allow to identify which data (location in Synapse, else) were processed in what way (which R code) to arrive at these steps; to reproduce the results presented in this article, a detailed processing protocol has to be provided that ties in all primary data and processed data together with the processing tools that were used to advance through the data analysis into a coherent processing pipeline; although links to data files (GO) and software resources were provided, other important information was burried in the supplemental (39 pages). Supplemental tables were organized into one Master spreadsheet. But that lacked a table index making it hard to navigate.**
 
-**Conclusions:**
+### **Conclusions:**
 The material and methods provided concerning the data analysis presented in the article were not conducive to reproducing the published findings. Major shortcomings were the poor organization of many of the components of the analysis, poor quality of coding practice, use of software that was poorly supported, and lack of analysis details necessary to reproduce the data processing.
 
 
-**Strategies to favor reproducibility by implementing the following concepts:**
+### **Strategies to favor reproducibility by implementing the following concepts:**
 
 **curated code:**  
 *goal: code that runs everywhere*
